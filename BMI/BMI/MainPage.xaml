@@ -17,7 +17,7 @@
             <Entry Text="50.0"
                 HorizontalOptions="CenterAndExpand" />
 
-            <Button Text="Welcome to Xamarin.Forms!"
+            <Button Text="BMI計算"
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>
