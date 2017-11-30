@@ -13,5 +13,11 @@ namespace BMI
 		{
 			InitializeComponent();
 		}
-	}
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            DisplayAlert("BMI", "太い", "OK");
+        }
+    }
+
 }

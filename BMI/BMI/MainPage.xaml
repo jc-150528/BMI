@@ -9,17 +9,20 @@
             <Label Text="身長を入力"
                 HorizontalOptions="CenterAndExpand" />
 
-            <Entry Text="160.0"
+            <Entry x:Name="fina"
+                Text="160.0"
                 HorizontalOptions="CenterAndExpand" />
 
             <Label Text="体重を入力"
                 HorizontalOptions="CenterAndExpand" />
 
-            <Entry Text="50.0"
+            <Entry x:Name="nayuta"
+                   Text="50.0"
                 HorizontalOptions="CenterAndExpand" />
 
             <Button Text="BMI計算"
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand" 
+                    Clicked="Button_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
     
