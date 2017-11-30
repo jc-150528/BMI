@@ -16,7 +16,9 @@ namespace BMI
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            DisplayAlert("BMI", "太い", "OK");
+            Double fina = double.Parse(fina.Text);
+
+            DisplayAlert("BMI", fina+":太い", "OK");
         }
     }
 
