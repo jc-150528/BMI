@@ -16,9 +16,12 @@ namespace BMI
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            Double fina = double.Parse(fina.Text);
+            double dfina = double.Parse(dfina.Text);
+            double dnayuta = 50.0;
 
-            DisplayAlert("BMI", fina+":太い", "OK");
+            double dBMI = dfina / dnayuta / dnayuta;
+
+            DisplayAlert("BMI", dfina+":太い", "OK");
         }
     }
 
