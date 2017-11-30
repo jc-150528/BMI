@@ -9,14 +9,14 @@
             <Label Text="身長を入力"
                 HorizontalOptions="CenterAndExpand" />
 
-            <Entry x:Name="fina"
+            <Entry x:Name="height"
                 Text="160.0"
                 HorizontalOptions="CenterAndExpand" />
 
             <Label Text="体重を入力"
                 HorizontalOptions="CenterAndExpand" />
 
-            <Entry x:Name="nayuta"
+            <Entry x:Name="weight"
                    Text="50.0"
                 HorizontalOptions="CenterAndExpand" />
 
